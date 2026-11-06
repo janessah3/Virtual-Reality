@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded",function() {
   for(let i = 0; i < 100; i++){
     let x = rnd(-20,20);
     let z = rnd(-20,20);
-    let tree = new Tree(x, 0 , z);
+    let cloud = new Cloud(x, 0 , z);
   }
 
 })
